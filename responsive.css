@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+  nav,
+  .banner-section {
+    flex-direction: column;
+  }
+  .gamer,
+  .menu-items {
+    justify-content: center;
+  }
+  .gamer-left {
+    height: auto;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu-item {
+    margin: auto;
+  }
+  .banner-section .goat {
+    order: 1;
+  }
+}

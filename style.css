@@ -1,0 +1,143 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+/* =========header============= */
+/* --------share item-------- */
+
+/* --------share item-------- */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.gamer {
+  display: flex;
+}
+.gamer-h2 h2 {
+  color: #0b0223;
+
+  font-size: 45px;
+
+  font-weight: 700;
+}
+.gamer-h2 h2 .g {
+  color: #ff42a5;
+}
+
+.gamer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gamer-left {
+  height: 8rem;
+}
+
+.menu {
+  display: flex;
+  padding-top: 1.8rem;
+
+  gap: 50px;
+}
+.menu-item {
+  display: flex;
+}
+
+.menu .menu-item a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+
+  font-size: 1.1rem;
+
+  font-weight: 500;
+}
+.menu-item {
+  padding-top: 1rem;
+}
+.menu-items a {
+  text-decoration: none;
+}
+.menu-items {
+  display: flex;
+  text-decoration: none;
+  color: #3c354f;
+  gap: 10px;
+  padding: 1rem 2rem;
+  font-size: 1rem 2rem;
+  padding: 1px 2;
+  font-weight: 500;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+.menu-utube {
+  color: red;
+}
+
+/* =============header============ */
+/* ==========banner section start========== */
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+}
+.goat {
+  background-image: url(./images/Group\ 14.png);
+  margin: auto;
+  align-items: center;
+}
+.goat > h2 {
+  color: #0b0223;
+
+  font-size: 48px;
+
+  font-weight: 600;
+}
+.linear {
+  font-size: 95px;
+
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.goat-p {
+  color: #534c64;
+
+  font-size: 20px;
+
+  font-weight: 500;
+}
+.btn-pink {
+  display: inline-flex;
+  padding: 1.3rem 2.3rem;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  color: #fff;
+  font-size: 1.2rem;
+
+  font-weight: 600;
+  border: none;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.btn-blue {
+  color: #fff;
+
+  font-size: 1.2rem;
+
+  padding: 1.3rem 2.3rem;
+  border: none;
+  gap: 10px;
+  font-weight: 600;
+  border-radius: 48px;
+  background: #4ec5f7;
+}
+.goat-img img {
+  width: 80%;
+}
+/* ==========banner section end============== */
