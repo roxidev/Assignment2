@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
   nav,
-  .banner-section {
+  .banner-section,
+  .download-section {
     flex-direction: column;
   }
   .gamer,
@@ -16,7 +17,29 @@
   .menu-item {
     margin: auto;
   }
+  .btn-pink {
+    padding: 1rem 2rem;
+  }
+  .btn-blue {
+    padding: 1rem 2rem;
+  }
   .banner-section .goat {
     order: 1;
+  }
+
+  /* ----card section----- */
+  .card-container {
+    flex-direction: column;
+  }
+  .icon-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* footer */
+  .footer-section {
+    justify-content: center;
+    width: 1005;
+  }
+  .footer-item {
+    flex-wrap: wrap;
   }
 }
