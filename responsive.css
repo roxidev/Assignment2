@@ -6,16 +6,15 @@
   }
   .banner-section {
     display: flex;
-    
+
     width: 100%;
-}
- .goat-img img{
-  width: 100%;
-}
-.goat {
-  
-  padding-left: 40px;
-}
+  }
+  .goat-img img {
+    width: 100%;
+  }
+  .goat {
+    padding-left: 40px;
+  }
   .gamer,
   .menu-items {
     justify-content: center;
@@ -40,13 +39,35 @@
   }
 
   /* ----card section----- */
+  .online-game {
+    text-align: center;
+    padding: 0px 0px;
+  }
   .card-container {
     flex-direction: column;
   }
+
+  /* *********download section************ */
+  .download-img img {
+    padding-left: 0px;
+  }
+
+  .download-section {
+    padding: 0;
+  }
+  .download-section h2 {
+    text-align: center;
+  }
+  /* **********icon section************* */
   .icon-container {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
   }
   /* footer */
+  .download-img {
+    padding: 0px;
+  }
   .footer-section {
     justify-content: center;
     width: 1005;
@@ -54,5 +75,4 @@
   .footer-item {
     flex-wrap: wrap;
   }
-  .
 }

@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 body {
   font-family: 'Work Sans', sans-serif;
@@ -84,7 +85,7 @@ nav {
 /* ==========banner section start========== */
 .banner-section {
   display: flex;
-  /* justify-content: space-around; */
+  align-items: center;
 
   width: 100%;
 }
@@ -93,7 +94,7 @@ nav {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  align-items: center;
+  align-content: center;
   width: 100%;
   padding-left: 130px;
 }
@@ -112,6 +113,7 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0.8rem 0;
 }
 .goat-p {
   color: #534c64;
@@ -119,6 +121,9 @@ nav {
   font-size: 20px;
 
   font-weight: 500;
+}
+.btn {
+  margin-top: 1.5rem;
 }
 .btn-pink {
   display: inline-flex;
@@ -174,7 +179,7 @@ nav {
   color: #534c64;
 
   font-size: 1.1rem;
-
+  margin: 1rem auto;
   font-weight: 400;
 }
 .card-container {
@@ -187,6 +192,7 @@ nav {
 }
 .card-img {
   width: 100%;
+  margin-bottom: 1rem;
 }
 .card-description {
   color: #534c64;
@@ -244,6 +250,11 @@ nav {
   left: -6rem;
 }
 /* =========icons section============ */
+/* .icon-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+} */
 .icon-container {
   align-items: center;
   display: flex;
@@ -270,8 +281,11 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.2rem;
-
+  align-items: center;
   font-weight: 600;
+}
+.icons img {
+  width: 3rem;
 }
 .icons:hover {
   border-radius: 50px;
@@ -280,6 +294,7 @@ nav {
 /* =========icon section end=========== */
 .footer-section {
   background: #0b0223;
+  padding: 3rem;
 }
 .footer-section .gamer {
   justify-content: center;
@@ -289,7 +304,7 @@ nav {
   justify-content: center;
   gap: 3rem;
   color: rgba(255, 255, 255, 0.6);
-
+  margin: 3rem 0;
   font-size: 1rem;
   font-weight: 500;
 }
